@@ -1,0 +1,25 @@
+.input{
+    width:85%
+  }
+  button{
+    width: 45%;
+  }
+  hr{
+    width: 95%;
+    border-top: 0.1px solid gray;
+    content: attr(data-content);
+  }
+  .signup{
+    width: 70% ;
+  }
+  .contain {
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 500px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 6px 10px 0 rgba(2.5,0,0,2.5);
+  }
